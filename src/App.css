@@ -1,0 +1,142 @@
+.city-selection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 70px;
+}
+
+.city-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.city-button {
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-top: 10px;
+  border-radius: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.city-button:hover {
+  background-color: red;
+  color: white;
+}
+
+.city-button.active {
+  background-color: yellow;
+  color: black;
+}
+
+.city-text {
+  font-weight: bold;
+}
+
+.next {
+  margin-top: 20px;
+  margin-left: 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px 15px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.next:hover {
+  background-color: rgb(8, 215, 8);
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.city-image {
+  width: 200px;
+  height: auto;
+  border-radius: 18px;
+  margin-left: 20px;
+}
+
+.cop-text {
+  margin-left: 20px;
+}
+
+.vehicle-selection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 70px;
+  justify-content: center;
+}
+
+.vehicle-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.vehicle-button {
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-top: 10px;
+  border-radius: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.vehicle-button:hover {
+  background-color: red;
+  color: white;
+}
+
+.vehicle-button.active {
+  background-color: yellow;
+  color: black;
+}
+
+.vehicle-text {
+  font-weight: bold;
+}
+
+.vehicle-image {
+  width: 200px;
+  height: auto;
+  border-radius: 18px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.start {
+  margin-top: 20px;
+  margin-left: 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px 15px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.start:hover {
+  background-color: rgb(8, 215, 8);
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.return {
+  margin-top: 20px;
+  margin-left: 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px 15px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.return:hover {
+  background-color: rgb(8, 215, 8);
+  color: white;
+  transition: background-color 0.3s ease;
+}
